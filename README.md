@@ -35,11 +35,7 @@ We’ve deployed this project as a **Streamlit web app** for easy use in the bro
 4. Click **Predict**
 5. Instantly see your estimated electricity bill!
 
-✅ Try the app here (dummy URL):
 
-[https://my-electricity-predictor.streamlit.app](https://my-electricity-predictor.streamlit.app)
-
----
 
 ## 📁 Why We Use `.pkl` Files
 

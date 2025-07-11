@@ -1,0 +1,36 @@
+------------------------------------------------------
+        ELECTRICITY BILL PREDICTION MODEL SUMMARY
+------------------------------------------------------
+
+Model Type:
+------------
+Linear Regression
+
+Performance Metrics:
+---------------------
+
+Mean Squared Error (MSE): 4969.58
+- On average, the model’s predictions differ from actual electricity bills by a small amount.
+- A lower MSE indicates better prediction accuracy.
+
+R-squared Score (R²): 0.9956
+- The model explains approximately 99.56% of the variation in electricity bills.
+- This is a very high score, indicating excellent predictive performance.
+
+Model Insights:
+----------------
+- The strongest factors influencing bill predictions are:
+    • Monthly appliance usage hours
+    • Local electricity tariff rates
+- Smaller impacts come from individual appliances like monitors or pumps.
+
+Conclusion:
+------------
+- The model is highly accurate for predicting electricity bills.
+- It’s suitable for real-world applications like helping households estimate monthly costs and plan energy usage.
+
+Note:
+-----
+This model has been saved as a .pkl file for quick loading in the Streamlit web application. It eliminates the need for retraining every time the app runs, ensuring fast and efficient predictions for users.
+
+------------------------------------------------------
